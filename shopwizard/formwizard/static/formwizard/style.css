@@ -1,0 +1,75 @@
+        .bottom-right-button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .bottom-left-button {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .container {
+            background-color: white;
+        }
+
+        .col {
+            text-align: right;
+        }
+body {
+  background-color: #f4f4f4;
+  background-image: url("./Slide1.jpg");
+  background-size: 100vw 100vh;
+}
+	.bold-text {
+	font-size: xx-large;
+	font-weight: bold;
+	}
+	.scrollable-column {
+        overflow-x: auto;
+        white-space: nowrap;
+        height: 100px; 
+        }
+        .template {
+        display: inline-block;
+        margin-right: 10px;
+        }
+    
+    .template img {
+        width: 200px;
+        height: 200px;
+        }
+    
+    .template-name {
+        text-align: center;
+        }
+    .payment-method {
+        margin-bottom: 10px;
+        }
+    .selected-container, .available-container {
+        height: 70vh; /* Adjust height as needed */
+        overflow-y: auto; /* Enable scrolling */
+        border-radius: 10px; /* Rounded corners */
+        background-color: #f0f0f0; /* Light grey color */
+        padding: 10px; /* Padding for container */
+        margin-bottom: 20px; /* Add some space between containers */
+        }
+            .option-container {
+            text-align: center;
+        }
+
+        .option-container h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .option-description {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .selected-options {
+            margin-top: 20px;
+        }
+  
